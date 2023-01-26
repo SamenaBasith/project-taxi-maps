@@ -16,9 +16,6 @@ import { useRef, useState } from "react";
 import MapViewDirections from "react-native-maps-directions";
 import React from 'react';
 
-// https://docs.expo.dev/versions/latest/sdk/map-view/
-// https://www.npmjs.com/package/react-native-google-places-autocomplete
-// https://www.npmjs.com/package/react-native-maps-directions
 
 const { width, height } = Dimensions.get("window");
 
