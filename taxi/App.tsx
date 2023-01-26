@@ -23,11 +23,12 @@ const ASPECT_RATIO = width / height;
 const LATITUDE_DELTA = 0.02;
 const LONGITUDE_DELTA = LATITUDE_DELTA * ASPECT_RATIO;
 const INITIAL_POSITION = {
-  latitude: 53.48101168016125,
-  longitude:-2.237021364258539,
+  latitude: 53.47771591617534,
+  longitude:-2.243148101784448,
   latitudeDelta: LATITUDE_DELTA,
   longitudeDelta: LONGITUDE_DELTA,
 };
+
 
 type InputAutocompleteProps = {
   label: string;
@@ -52,7 +53,7 @@ function InputAutocomplete({
         }}
         query={{
           key: "AIzaSyAsS0rUpAjtwQ7TzKQJgwcXNQlS4wss8yU",
-          language: "pt-BR",
+          language: "en",
         }}
       />
     </>
@@ -240,30 +241,7 @@ const styles = StyleSheet.create({
 //         types: '(cities)' // default: 'geocode'
 //       }}
       
-//       styles={{
-//         textInputContainer: {
-//           width: '90%',
-//           elevation: 4,
-//           padding:8,
-//           shadowColor: "black",
-//           shadowOffset: {width:2, height:2},
-//           shadowOpacity: 0.5,
-//           shadowRadius:4,
-//           top: 50
-//         },
-//         description: {
-//           position: 'absolute',
-//           fontWeight: 'bold',
-//           shadowColor: "black",
-        
-//         },
-//         listView: {
-//           color: 'black', //To see where exactly the list is
-//           zIndex: 1000, //To popover the component outwards
-//           position: 'absolute',
-//           top: 120
-//         },
-//       }}
+
 //         />
 //         <MapView
 //           style={styles.map}
@@ -308,19 +286,6 @@ const styles = StyleSheet.create({
 //     );
 //     }
 
-// const styles = StyleSheet.create({
-//   container: {
-//     flex: 1,
-//     justifyContent: 'center',
-//     alignItems: 'center',
-//   },
-//   map: {
-//     position: 'absolute',
-//     top: 300,
-//     left: 0,
-//     right: 0,
-//     bottom: 0,
-//   },
-// });
+
 
 
